@@ -1,0 +1,16 @@
+[project]
+name = "advanced-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "firecrawl-py>=4.55.0",
+    "langchain>=1.4.9",
+    "langchain-openai>=1.7.4",
+    "langgraph>=1.2.20",
+    "langgraph-api>=0.17.1",
+    "langgraph-cli>=0.4.42",
+    "pydantic>=2.14.3",
+    "python-dotenv>=1.2.4",
+]
